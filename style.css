@@ -9,7 +9,6 @@ h1 {
 	font-family: 'Share Tech Mono', serif;
 	margin:0;
 	font-size:50px;
-	padding-left:2%;
 	text-decoration:underline;
 }
 
@@ -37,8 +36,9 @@ img.two {
 
 .content {
 	width:60%;
-	margin:2%;
+	margin:2% 1% 0 0;
 	float:left;
+	padding-right:2%;
 }
 
 .content p {
@@ -50,14 +50,29 @@ img.two {
 	width:30%;
 	float:left;
 	line-height:1.6;
+	padding-left:2%;
 }
 
 nav.main-nav {
-	margin: 20px 0;
+	margin: 20px 0 50px 0;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display:block;
+}
+
+nav ul li {
+	display:inline;
+	padding:10px 15px;
+	margin-right:2%;
+	border:2px solid #000;
+	border-radius: 6px;
+}
+
+nav ul li a {
+	text-decoration:none;
+	text-transform:uppercase;
 }
